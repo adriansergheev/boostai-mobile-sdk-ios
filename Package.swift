@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "mobile-sdk-ios",
+    name: "boostai-mobile-sdk-ios",
     platforms: [.iOS(.v13)],
     products: [
         .library(
