@@ -31,8 +31,8 @@ public class AgentAvatarView: UIView {
     public var customConfig: ChatConfig?
     
     /// Image for the avatar
-    public var avatarImage: UIImage? = UIImage(named: "agent", in: Bundle(for: AgentAvatarView.self), compatibleWith: nil)
-    
+    public var avatarImage: UIImage? = UIImage(named: "agent", in: Bundle.module, compatibleWith: nil)
+
     /// Avatar size
     public var avatarSize: CGFloat = 60
     
